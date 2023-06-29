@@ -38,7 +38,7 @@ const Portfolio = () => {
         <div className='mt-12'>
             <div className='text-center space-y-4'>
                 <h3 className='text-orange-500 text-3xl font-semibold'>Portfolio</h3>
-                <h2 className='text-4xl font-extrabold'>My Amazing Works</h2>
+                <h2 className='text-4xl font-extrabold'>My Amazing Works</h2> 
                
                     <ul className='flex items-center justify-center gap-4 font-semibold text-xl text-[#15295f]'>
                         <li><Link to={'path'}>All</Link></li>
