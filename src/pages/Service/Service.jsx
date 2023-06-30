@@ -73,7 +73,7 @@ const Service = () => {
                
                   <div className="card-body">
                     <h2 className="card-title">{slide.title}</h2>
-                    <p>{slide.description}</p>
+                    <p>{slide.description}</p> 
                   </div>
                 </div>
               </SwiperSlide>
