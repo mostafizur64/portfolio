@@ -4,6 +4,9 @@ import ExperienceSupportServiceSection from '../ExperienceSupportServiceSection/
 import Service from '../Service/Service';
 import Experience from '../Experience/Experience';
 import Portfolio from '../Portfolio/Portfolio';
+import Reviews from '../Reviews/Reviews';
+import Blog from '../Blog/Blog';
+import Contact from '../Contact/Contact';
 
 const Home = () => {
     return (
@@ -13,6 +16,9 @@ const Home = () => {
           <Service/>
           <Experience/>
           <Portfolio/>
+          <Reviews/>
+          <Blog/>
+          <Contact/>
         </div>
     );
 };
