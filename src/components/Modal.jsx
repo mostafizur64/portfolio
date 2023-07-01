@@ -1,19 +1,24 @@
 import React from 'react';
 
-const Modal = () => {
+const Modal = ({modal}) => {
+     const {id,image,category,title} = modal
     return (
         <div>
 
-            <dialog id="my_modal_1" className="modal">
-                <form method="dialog" className="modal-box">
-                    <h3 className="font-bold text-lg">Hello!</h3>
-                    <p className="py-4">Press ESC key or click the button below to close</p>
+            {/* The button to open modal */}
+
+            {/* Put this part before </body> tag */}
+            <input type="checkbox" id="my_modal_6" className="modal-toggle" />
+            <div className="modal">
+                <div className="modal-box">
+                    <img src={image} alt="" />
+                    <h3 className="font-bold text-lg">{title}</h3>
+                    <p className="py-4">{category}</p>
                     <div className="modal-action">
-                        {/* if there is a button in form, it will close the modal */}
-                        <button className="btn">Close</button>
+                        <label htmlFor="my_modal_6" className="btn">Close!</label>
                     </div>
-                </form>
-            </dialog>
+                </div>
+            </div>
         </div>
     );
 };
