@@ -54,7 +54,7 @@ const Portfolio = () => {
                     <div className='grid grid-cols-1 lg:grid-cols-3 gap-4 mt-8'>
                         {filteredData.map(item => (
                             <div className='' key={item.id}>
-                                <img className='w-96 h-80 rounded-lg' src={item.image} alt="image" />
+                                <img className='lg:w-96 w-full h-80 rounded-lg' src={item.image} alt="image" />
                             </div>
                         ))}
                     </div>

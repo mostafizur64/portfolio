@@ -14,13 +14,13 @@ const Blog = () => {
         {
             id: 2,
             image: 'https://i.ibb.co/3C6TQYb/Website-Design-new.jpg',
-            category: 'UI/UX',
+            category: 'Web Development',
             title: 'User interface design or user interface engineering',
         },
         {
             id: 3,
             image: 'https://i.ibb.co/C2SJBpz/web-design-workflow-blog.png',
-            category: 'UI/UX',
+            category: 'Web Design',
             title: 'User interface design or user interface engineering',
         },
     ];
@@ -41,7 +41,7 @@ const Blog = () => {
                         {/* <label    className="btn">open modal</label> */}
 
                         <img src={item.image} alt='' />
-                        <h3>{item.category}</h3>
+                        <h3 className='text-2xl'>{item.category}</h3>
                         <h2>{item.title}....</h2>
                         <div></div>
                     </label>

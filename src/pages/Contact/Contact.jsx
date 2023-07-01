@@ -25,9 +25,9 @@ const Contact = () => {
                 <div className='flex gap-4 mt-8'>
 
                     <Link to='https://web.facebook.com/profile.php?id=100009220888010' target='_blank'><FaFacebookF className=' w-12 h-12 bg-orange-500 text-white rounded-full p-2 ' /></Link>
-                    <Link to='/'><FaLinkedin className=' w-12 h-12 bg-orange-500 text-white rounded-full  p-2' /></Link>
+                    <Link to='https://www.linkedin.com/in/mostafizur-rahman-a62927277/'><FaLinkedin className=' w-12 h-12 bg-orange-500 text-white rounded-full  p-2' /></Link>
                     <Link to='https://github.com/mostafizur64' target='_blank'><FaGithub className=' w-12 h-12 bg-orange-500 text-white rounded-full  p-2' /></Link>
-                    <Link to='/'><FaInstagram className=' w-12 h-12 bg-orange-500 text-white rounded-full  p-2' /></Link>
+                    <Link to='https://www.instagram.com/mdmostafizur64/'><FaInstagram className=' w-12 h-12 bg-orange-500 text-white rounded-full  p-2' /></Link>
 
 
                 </div>
