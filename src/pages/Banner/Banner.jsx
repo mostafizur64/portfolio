@@ -6,7 +6,7 @@ const Banner = () => {
 
         <div className=''>
             <Container className="py-12">
-                <div className='grid grid-cols-1 lg:grid-cols-2   justify-center items-center'>
+                <div className='grid grid-cols-1 lg:grid-cols-2  gap-28 justify-center items-center'>
                     <div>
                         {/* left site for banner  */}
                         <h3 className='text-orange-500 font-extrabold text-3xl '>Hi,I'm</h3>
@@ -23,7 +23,7 @@ const Banner = () => {
                     </div>
                     <div>
                         {/* right side for Banner  */}
-                        <img src="https://i.ibb.co/3CqFXC5/Mostafizur-Rahman.jpg" alt="mostafizur rahman" />
+                        <img className='w-full lg:w-96' src="https://i.ibb.co/3CqFXC5/Mostafizur-Rahman.jpg" alt="mostafizur rahman" />
                         <div className='bg-red-500'></div>
                     </div>
                 </div>
