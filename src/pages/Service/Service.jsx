@@ -50,12 +50,12 @@ const Service = () => {
 
   return (
     <div>
-      <div className="grid lg:grid-cols-4 gap-4 mt-12">
+      <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 mt-12">
         <div className="space-y-4">
           <h2 className="text-orange-500 text-3xl font-semibold">Services</h2>
           <h2 className="text-4xl text-[#15295f] font-extrabold">I Provide Wide Range Of Digital Services</h2>
         </div>
-        <div className="col-span-3 ...">
+        <div className="col-span-3">
           <Swiper
             breakpoints={swiperBreakpoints}
             centeredSlides={true}
