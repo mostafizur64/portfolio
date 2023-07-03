@@ -2,6 +2,7 @@ import React, { useRef, useState } from 'react';
 import { FaFacebookF, FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import emailjs from '@emailjs/browser';
+import { motion } from 'framer-motion'
 const Contact = () => {
     const form = useRef();
     const [message, setMessage] = useState(false)
@@ -17,19 +18,32 @@ const Contact = () => {
             });
     };
     return (
-        <div className='grid grid-cols-1 lg:grid-cols-2 gap-12 mt-12 '>
+        <div id='contacts' className='grid grid-cols-1 lg:grid-cols-2 gap-12 mt-12 '>
             <div>
                 {/* left side for contact  */}
                 <h2 className='text-3xl font-bold text-[#15295f]'> Let's Connect</h2>
                 <p className=' text-[#6f6b80] text-xl'>Please fill out the form on this section to contact with me. Or call between 9:00 a.m. and 8:00 p.m. ET, Monday through Friday</p>
                 <div className='flex gap-4 mt-8'>
-
-                    <Link to='https://web.facebook.com/profile.php?id=100009220888010' target='_blank'><FaFacebookF className=' w-12 h-12 bg-orange-500 text-white rounded-full p-2 ' /></Link>
-                    <Link to='https://www.linkedin.com/in/mostafizur-rahman-a62927277/'><FaLinkedin className=' w-12 h-12 bg-orange-500 text-white rounded-full  p-2' /></Link>
-                    <Link to='https://github.com/mostafizur64' target='_blank'><FaGithub className=' w-12 h-12 bg-orange-500 text-white rounded-full  p-2' /></Link>
-                    <Link to='https://www.instagram.com/mdmostafizur64/'><FaInstagram className=' w-12 h-12 bg-orange-500 text-white rounded-full  p-2' /></Link>
-
-
+                    <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}> {/* Step 2: Wrap each Link with motion.div */}
+                        <Link to='https://web.facebook.com/profile.php?id=100009220888010' target='_blank'>
+                            <FaFacebookF className='w-12 h-12 bg-orange-500 text-white rounded-full p-2' />
+                        </Link>
+                    </motion.div>
+                    <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}> {/* Wrap with motion.div */}
+                        <Link to='https://www.linkedin.com/in/mostafizur-rahman-a62927277/'>
+                            <FaLinkedin className='w-12 h-12 bg-orange-500 text-white rounded-full p-2' />
+                        </Link>
+                    </motion.div>
+                    <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}> {/* Wrap with motion.div */}
+                        <Link to='https://github.com/mostafizur64' target='_blank'>
+                            <FaGithub className='w-12 h-12 bg-orange-500 text-white rounded-full p-2' />
+                        </Link>
+                    </motion.div>
+                    <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}> {/* Wrap with motion.div */}
+                        <Link to='https://www.instagram.com/mdmostafizur64/'>
+                            <FaInstagram className='w-12 h-12 bg-orange-500 text-white rounded-full p-2' />
+                        </Link>
+                    </motion.div>
                 </div>
             </div>
             <div>
@@ -41,16 +55,16 @@ const Contact = () => {
 
 
                             <div className='form-control'>
-                                <input type="text" name='name' placeholder="Your Name" className="input input-bordered " />
+                                <input type="text" name='name' required placeholder="Your Name" className="input input-bordered " />
 
                             </div>
                             <div className="form-control">
 
-                                <input type="email" name='email' placeholder="Your Email" className="input input-bordered " />
+                                <input type="email" name='email' required placeholder="Your Email" className="input input-bordered " />
                             </div>
                             <div className="form-control">
 
-                                <textarea name='message' className="textarea textarea-bordered " placeholder="Message"></textarea>
+                                <textarea name='message' required className="textarea textarea-bordered " placeholder="Message"></textarea>
                             </div>
                             <div className="mt-6">
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaBattleNet, FaStackExchange, FaHeadphones } from 'react-icons/fa';
-
+import { motion } from "framer-motion"
 const ExperienceSupportServiceSection = () => {
     return (
         <div className='mt-12'>

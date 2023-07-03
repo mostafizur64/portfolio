@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-
+import { motion } from "framer-motion"
 const Portfolio = () => {
     const [selectedCategory, setSelectedCategory] = useState('All'); // State to track the selected category
 
@@ -28,7 +28,7 @@ const Portfolio = () => {
     const filteredData = selectedCategory === 'All' ? jsonData : jsonData.filter(item => item.category === selectedCategory);
 
     return (
-        <div className='mt-12'>
+        <div id='work' className='mt-12'>
             <div className='text-center space-y-4'>
                 <h3 className='text-orange-500 text-3xl font-semibold'>Portfolio</h3>
                 <h2 className='text-4xl font-extrabold text-[#15295f]'>My Amazing Works</h2>
@@ -52,10 +52,15 @@ const Portfolio = () => {
                 <div>
                     {/* Render the filtered data */}
                     <div className='grid grid-cols-1 lg:grid-cols-3 gap-4 mt-8'>
-                        {filteredData.map(item => (
-                            <div className='' key={item.id}>
+                        {filteredData.map((item,i) => (
+                            <motion.dev className='' key={item.id}
+                                initial={{ opacity: 0, translateX: i%2 ===0 ? -50 : 50,translateY:-50 }}
+                                animate={{opacity:1,translateX:0,translateY:0}}
+                                transition={{duration:0.3,delay:i*0.8}}
+
+                            >
                                 <img className='lg:w-96 w-full h-80 rounded-lg' src={item.image} alt="image" />
-                            </div>
+                            </motion.dev >
                         ))}
                     </div>
                 </div>

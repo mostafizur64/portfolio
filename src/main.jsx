@@ -9,7 +9,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <div className='max-w-6xl mx-auto'>
       <React.StrictMode>
         <RouterProvider router={router}></RouterProvider>
-      </React.StrictMode>,
+      </React.StrictMode>
     </div>
   </div>
 )

@@ -7,10 +7,12 @@ import Portfolio from '../Portfolio/Portfolio';
 import Reviews from '../Reviews/Reviews';
 import Blog from '../Blog/Blog';
 import Contact from '../Contact/Contact';
+import Navbar from '../Shared/Navbar/Navbar';
 
 const Home = () => {
     return (
         <div>
+          
           <Banner/>
           <ExperienceSupportServiceSection/>
           <Service/>
