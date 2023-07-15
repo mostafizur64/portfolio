@@ -30,7 +30,7 @@ const Contact = () => {
                         </Link>
                     </motion.div>
                     <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}> {/* Wrap with motion.div */}
-                        <Link to='https://www.linkedin.com/in/mostafizur-rahman-a62927277/'>
+                        <Link to='https://www.linkedin.com/in/mostafizur-rahman-a62927277/' target='_blank'>
                             <FaLinkedin className='w-12 h-12 bg-orange-500 text-white rounded-full p-2' />
                         </Link>
                     </motion.div>
@@ -40,7 +40,7 @@ const Contact = () => {
                         </Link>
                     </motion.div>
                     <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}> {/* Wrap with motion.div */}
-                        <Link to='https://www.instagram.com/mdmostafizur64/'>
+                        <Link to='https://www.instagram.com/mdmostafizur64/' target='_blank'>
                             <FaInstagram className='w-12 h-12 bg-orange-500 text-white rounded-full p-2' />
                         </Link>
                     </motion.div>
