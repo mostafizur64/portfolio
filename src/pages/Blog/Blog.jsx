@@ -32,12 +32,12 @@ const Blog = () => {
                 <h3 className='text-2xl font-semibold text-orange-500'>From my Blog</h3>
                 <h2 className='text-4xl font-extrabold mt-4'>Our Recent Updates, Blog</h2>
             </div>
-            <div className='grid grid-cols-1 lg:grid-cols-3 gap-4 mt-8'>
+            <div className='grid grid-cols-1 lg:grid-cols-3 gap-4 mt-8 cursor-pointer'>
                 {data.map((item) => (
                     <motion.div
                         whileHover={{ scale: 1.05, transition: { duration: 0.3 } }}
                         whileTap={{ scale: 0.95, transition: { duration: 0.3 } }}
-                        className='bg-orange-500 p-2 cursor-pointer'
+                        className='border-2 p-2 cursor-pointer rounded-lg'
                     >
 
 
@@ -47,7 +47,7 @@ const Blog = () => {
 
                         >
                           
-                            <img src={item.image} alt='' />
+                            <img className='h-60' src={item.image} alt='' />
                             <h3 className='text-2xl text-center mt-4'>{item.category}</h3>
                             <h2 className='p-4'>{item.title}....</h2>
                             <div></div>

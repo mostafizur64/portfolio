@@ -15,10 +15,6 @@ import MyProjects from '../pages/My-projects/MyProjects';
             path:'/',
             element:<Home></Home>
         },
-        {
-          path:'/my-project',
-          element:<MyProjects/>
-        }
         
       ]
     },
