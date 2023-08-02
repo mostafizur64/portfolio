@@ -62,8 +62,8 @@ const Navbar = () => {
                 {navItems}
               </ul>
             </div>
-            <Link to="/" className="text-5xl font-extrabold ">
-              Mostafizur{" "}
+            <Link to="/" className="hidden lg:block lg:text-5xl font-extrabold ">
+              Mostafizur
             </Link>
           </div>
           <div className="navbar-center hidden lg:flex">

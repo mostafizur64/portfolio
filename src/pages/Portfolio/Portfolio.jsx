@@ -28,7 +28,7 @@ const Portfolio = () => {
     const filteredData = selectedCategory === 'All' ? jsonData : jsonData.filter(item => item.category === selectedCategory);
 
     return (
-        <div id='work' className='mt-12'>
+        <div id='work' className='mt-12 p-4'>
             <div className='text-center space-y-4'>
                 <h3 className='text-orange-500 text-3xl font-semibold'>Portfolio</h3>
                 <h2 className='text-4xl font-extrabold text-[#15295f]'>My Amazing Works</h2>

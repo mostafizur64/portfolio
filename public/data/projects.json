@@ -1,21 +1,44 @@
-
- [
-      {
-        "name": "Yoga Meditation",
-        "live_link": "https://yoga-meditation-project.web.app/",
-        "image": "https://img.freepik.com/free-vector/web-design-agency-landing-page_52683-868.jpg?w=740&t=st=1688285606~exp=1688286206~hmac=a7f5fa75886f74148e41b70bd399b62735877a28e8f8ef3065214aee0ae17a9c"
-      },
-      {
-        "name": "Animal Toys",
-        "live_link": "https://animal-toys-project-4905d.web.app/",
-        "image": "https://img.freepik.com/premium-vector/add-cart-illustration-web-page_1124-694.jpg?w=740"
-      },
-      {
-        "name": "Chef Recipe",
-        "live_link": "https://the-chef-project-2637f.web.app/",
-        "image": "https://img.freepik.com/free-vector/app-development-landing-page_52683-871.jpg?w=740&t=st=1688285640~exp=1688286240~hmac=c21a5e98c03b6b0cdb1cc68c1186830685e89da068aaf114327bc9a1316afeea"
-      }
-     
-    ]
-  
-  
+[
+  {
+    "name": "Yoga Meditation",
+    "live_link": "https://yoga-meditation-project.web.app/",
+    "git_client_link": "https://github.com/mostafizur64/yego-meditation-client-site",
+    "git_server_link": "https://github.com/mostafizur64/yego-meditation-server-site",
+    "image": "https://img.freepik.com/free-vector/web-design-agency-landing-page_52683-868.jpg?w=740&t=st=1688285606~exp=1688286206~hmac=a7f5fa75886f74148e41b70bd399b62735877a28e8f8ef3065214aee0ae17a9c"
+  },
+  {
+    "name": "Animal Toys",
+    "live_link": "https://animal-toys-project-4905d.web.app/",
+    "git_client_link": "https://github.com/mostafizur64/toy-marketplace-client-site",
+    "git_server_link": "https://github.com/mostafizur64/toy-marketplace-server-site",
+    "image": "https://img.freepik.com/premium-vector/add-cart-illustration-web-page_1124-694.jpg?w=740"
+  },
+  {
+    "name": "Chef Recipe",
+    "live_link": "https://the-chef-project-2637f.web.app/",
+    "git_client_link": "https://github.com/mostafizur64/the-chef-client-site",
+    "git_server_link": "https://github.com/mostafizur64/the-chef-server",
+    "image": "https://img.freepik.com/free-vector/app-development-landing-page_52683-871.jpg?w=740&t=st=1688285640~exp=1688286240~hmac=c21a5e98c03b6b0cdb1cc68c1186830685e89da068aaf114327bc9a1316afeea"
+  },
+  {
+    "name": "Job Hunter",
+    "live_link": "https://charming-rugelach-b5a613.netlify.app/",
+    "git_client_link": "https://github.com/mostafizur64/job-hunter-website",
+    "git_server_link": "https://github.com/mostafizur64/job-hunter-website",
+    "image": "https://i.ibb.co/xXg1KR4/Capture.jpg"
+  },
+  {
+    "name": "Movies Point",
+    "live_link": "https://superlative-figolla-7738c8.netlify.app/",
+    "git_client_link": "https://github.com/mostafizur64/jhaka-naka-production-house",
+    "git_server_link": "https://github.com/mostafizur64/jhaka-naka-production-house",
+    "image": "https://i.ibb.co/xFRLnXQ/jhakanaka-production.jpg"
+  },
+  {
+    "name": "Justice House",
+    "live_link": "https://inquisitive-pithivier-0f3581.netlify.app/",
+    "git_client_link": "https://github.com/mostafizur64/justice-bootstrap-project",
+    "git_server_link": "https://github.com/mostafizur64/justice-bootstrap-project",
+    "image": "https://i.ibb.co/rynkDBP/justice.jpg"
+  }
+]

@@ -29,7 +29,7 @@ const Contact = () => {
   return (
     <div
       id="contacts"
-      className="grid grid-cols-1 lg:grid-cols-2 gap-12 mt-12 "
+      className="grid grid-cols-1 lg:grid-cols-2 gap-12 mt-12 p-4"
     >
       <div>
         {/* left side for contact  */}

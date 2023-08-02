@@ -20,7 +20,7 @@ const Banner = () => {
           >
             {/* left site for banner  */}
             <h3 className='text-orange-500 font-extrabold text-3xl '>Hi, I'm</h3>
-            <h2 className='text-[#15295f] font-extrabold text-7xl mt-2'>Mostafizur Rahman</h2>
+            <h2 className='text-[#15295f] font-extrabold text-3xl lg:text-7xl mt-2'>Mostafizur Rahman</h2>
             <h3 className="uppercase mt-4 text-xl md:text-3xl lg:text-5xl text-orange-500  font-extrabold font-mono  text-color pr-5">
               I'm a <span className="text-[#15295f]">{text}</span>
               <Cursor cursorColor="red" />
@@ -39,7 +39,7 @@ const Banner = () => {
             transition={{ duration: 3 }}
           >
             {/* right side for Banner  */}
-            <img style={{borderRadius: '0 200px 200px 200px'}}  className='w-full lg:w-96  ' src="https://i.ibb.co/3CqFXC5/Mostafizur-Rahman.jpg" alt="mostafizur rahman" />
+            <img style={{borderRadius: '0 200px 200px 200px'}}  className='w-full lg:w-96 ' src="https://i.ibb.co/3CqFXC5/Mostafizur-Rahman.jpg" alt="mostafizur rahman" />
             <div className='bg-red-500'></div>
           </motion.div>
         </div>

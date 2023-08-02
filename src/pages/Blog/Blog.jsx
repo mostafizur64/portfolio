@@ -27,7 +27,7 @@ const Blog = () => {
     ];
     console.log(data)
     return (
-        <div id='blogs' className='mt-12'>
+        <div id='blogs' className='mt-12 p-4'>
             <div className='text-center'>
                 <h3 className='text-2xl font-semibold text-orange-500'>From my Blog</h3>
                 <h2 className='text-4xl font-extrabold mt-4'>Our Recent Updates, Blog</h2>
