@@ -2,29 +2,36 @@ import React, { useEffect, useState } from "react";
 import Container from "../../components/Container";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
+import { PropagateLoader } from "react-spinners";
 
 const MyProjects = () => {
   const [projects, setProjects] = useState([]);
-
-  fetch('./data/projects.json')
-  .then((res) => res.json())
-  .then((data) => {
-    setProjects(data);
-  })
-  .catch((error) => {
-    console.error('Error fetching JSON:', error);
-  });
-
-
+  const [visibleProject, setVisibleProject] = useState(5);
+  const [loading,setLoading] =useState(false);
   
+  fetch("./data/projects.json")
+    .then((res) => res.json())
+    .then((data) => {
+      setProjects(data);
+      setLoading(false);
+    })
+    .catch((error) => {
+      console.error("Error fetching JSON:", error);
+      setLoading(false); 
+    });
 
+  const handleShowMore = () => {
+    setLoading(true);
+    setVisibleProject(projects.length);
+    setLoading(false);
+  };
   return (
     <div id="myProjects" className="p-4">
       <div className="text-center">
         <h2 className="text-orange-500 text-3xl font-extrabold">My Project</h2>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-3  gap-x-4 gap-y-8 mt-8">
-        {projects.map((item, index) => (
+        {projects.slice(0, visibleProject).map((item, index) => (
           <div
             key={index}
             className=" card card-compact w-full lg:96 bg-base-100 shadow-xl hover:shadow-lg"
@@ -71,6 +78,21 @@ const MyProjects = () => {
             </div>
           </div>
         ))}
+      </div>
+      <div className="flex items-center justify-center mt-8">
+      {loading ? (
+          <PropagateLoader color="#36d7b7" />
+        ) : (
+          visibleProject < projects.length && (
+            <button
+              onClick={handleShowMore}
+              type="button"
+              className="btn btn-outline rounded-full hover:text-orange-500 hover:bg-white hover:border-orange-400 border-2 bg-orange-500  px-8 text-white  uppercase"
+            >
+              Show More
+            </button>
+          )
+        )}
       </div>
     </div>
   );
