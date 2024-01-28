@@ -8,7 +8,7 @@ const ExperienceSupportServiceSection = () => {
                 <div className='flex gap-4 justify-center items-center border-r-[1px] border-black sm:col-span-1 bg-white lg:bg-white lg:rounded-none rounded-full'>
                     <FaBattleNet className='bg-orange-500 text-white w-16 h-16 rounded-full p-4' />
                     <div className='ml-4'>
-                        <h2 className='text-center md:text-left text-2xl font-extrabold text-[#15295f]'>0 years jobs</h2>
+                        <h2 className='text-center md:text-left text-2xl font-extrabold text-[#15295f]'>06 month jobs</h2>
                         <p className='text-center md:text-left text-xl text-orange-500'>Experience</p>
                     </div>
                 </div>

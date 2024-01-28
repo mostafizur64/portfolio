@@ -1,5 +1,12 @@
 [
   {
+    "name": "Bistro Boss",
+    "live_link": "https://bistroboss-project.netlify.app/",
+    "git_client_link": "https://github.com/mostafizur64/bistoroBoss",
+    "git_server_link": "https://github.com/mostafizur64/bistoroBoss-server",
+    "image": "https://i.ibb.co/PG1Tv4S/bistorbosse.jpg"
+  },
+  {
     "name": "Medicare",
     "live_link": "https://medicares.netlify.app",
     "git_client_link": "https://github.com/mostafizur64/medicare",
