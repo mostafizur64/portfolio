@@ -28,18 +28,25 @@
     "image": "https://i.ibb.co/hs0BLCM/tcj-space.jpg"
   },
   {
+    "name": "NEXCENT",
+    "live_link": "https://stately-bunny-4e68e7.netlify.app/",
+    "git_client_link": "https://github.com/mostafizur64/agencywebsite",
+    "git_server_link": "https://github.com/mostafizur64/agencywebsite",
+    "image": "https://i.ibb.co/8B3LFxq/image.png"
+  },
+  {
+    "name": "FieldX",
+    "live_link": "https://fieldx-project.netlify.app/",
+    "git_client_link": "https://github.com/mostafizur64/MAACTASK",
+    "git_server_link": "https://github.com/mostafizur64/MAACTASK",
+    "image": "https://i.ibb.co/TmRB6k0/image.png"
+  },
+  {
     "name": "Berber Hair Cutting",
     "live_link": "https://barber-projects.netlify.app/",
     "git_client_link": "https://github.com/mostafizur64/barber-selun-use-html-css-full-responsive",
     "git_server_link": "https://github.com/mostafizur64/barber-selun-use-html-css-full-responsive",
     "image": "https://i.ibb.co/ssX2f3p/barber.jpg"
-  },
-  {
-    "name": "Portfolio",
-    "live_link": "https://demo-portfolios-project.netlify.app/",
-    "git_client_link": "https://github.com/mostafizur64/personal-portfolio",
-    "git_server_link": "https://github.com/mostafizur64/personal-portfolio",
-    "image": "https://i.ibb.co/X81STm7/portfolio.jpg"
   },
   {
     "name": "Admission Care",
@@ -48,6 +55,7 @@
     "git_server_link": "#",
     "image": "https://i.ibb.co/zxrHNQD/admission.jpg"
   },
+  
   {
     "name": "Dental Care",
     "live_link": "https://decare-project.netlify.app/",

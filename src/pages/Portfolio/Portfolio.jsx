@@ -33,7 +33,7 @@ const Portfolio = () => {
                 <h3 className='text-orange-500 text-3xl font-semibold'>Portfolio</h3>
                 <h2 className='text-4xl font-extrabold text-[#15295f]'>My Amazing Works</h2>
 
-                <ul className='flex items-center justify-center gap-4 font-semibold text-xl text-[#15295f]'>
+                <ul className='flex items-center justify-center gap-4 font-semibold md:text-xl text-[15px] text-[#15295f] '>
                     <li>
                         <Link to='/' onClick={() => handleCategoryChange('All')}>All</Link>
                     </li>

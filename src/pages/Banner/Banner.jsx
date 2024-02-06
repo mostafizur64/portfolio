@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Container from '../../components/Container';
-import Resume from './Resume of Mostafizur Rahman.pdf';
+import CV from '../Banner/CV Of Mostafizur Rahman...pdf'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 const Banner = () => {
   const [text] = useTypewriter({
@@ -27,7 +27,7 @@ const Banner = () => {
             </h3>
             <p className='w-[100%] text-gray-500 text-xl mt-4'>I'm Md Mostafizur Rahman,a Front-end Developer . i develop full blown web applications using the MERN stack , but i mostly love working in the front end using tailwind css and react . One od my favorite activities is to educated and help others in the field to fulfill their potential and depend my knowledge. You can find more about this on my resume.</p>
             <div className='flex gap-4 mt-12'>
-              <a href={Resume} download>
+              <a href={CV} download>
                 <button className="btn btn-outline rounded-full hover:text-orange-500 hover:bg-white hover:border-orange-400 border-2 bg-orange-500 px-8 text-white">Download CV</button>
               </a>
               <a href='#contacts' className="btn bg-white text-orange-500 hover:bg-orange-500 hover:text-white rounded-full px-8 border-2 border-orange-400">Contact</a>

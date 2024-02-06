@@ -37,7 +37,7 @@ const Experience = () => {
         <div className='mt-12 p-4'>
             <div className='text-center '>
                 <h3 className='text-orange-500 font-semibold text-2xl'>Why Choose Me</h3>
-                <h2 className='text-5xl text-[#15295f] font-extrabold'>My Experience Area</h2>
+                <h2 className='text-4xl md:py-0 py-4 text-[#15295f] font-extrabold'>My Experience Area</h2>
             </div>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-12 mt-8'>
                 {/* left side  */}

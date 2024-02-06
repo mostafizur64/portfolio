@@ -6,7 +6,7 @@ import { PropagateLoader } from "react-spinners";
 
 const MyProjects = () => {
   const [projects, setProjects] = useState([]);
-  const [visibleProject, setVisibleProject] = useState(5);
+  const [visibleProject, setVisibleProject] = useState(6);
   const [loading,setLoading] =useState(false);
   
   fetch("./data/projects.json")
