@@ -14,6 +14,13 @@
     "image": "https://i.ibb.co/QXmzZcq/medical.jpg"
   },
   {
+    "name": "Jerin Parlour",
+    "live_link": "https://jerinparlours.netlify.app/",
+    "git_client_link": "https://github.com/mostafizur64/jerin-parlour",
+    "git_server_link": "https://github.com/mostafizur64/jerin-parlour",
+    "image": "https://i.ibb.co/K7x1RLZ/jerin.jpg"
+  },
+  {
     "name": "WebChain Dev",
     "live_link": "https://space-portfolio-gamma.vercel.app/",
     "git_client_link": "https://github.com/mostafizur64/space-portfolio",
