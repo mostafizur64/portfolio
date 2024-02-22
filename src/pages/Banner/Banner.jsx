@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Container from '../../components/Container';
-import CV from '../Banner/CV Of Mostafizur Rahman...pdf'
+import CV from '../Banner/CV of Mostafizur Rahamn.pdf'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 const Banner = () => {
   const [text] = useTypewriter({
